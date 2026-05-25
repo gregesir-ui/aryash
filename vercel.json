@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow",
+        "Cache-Control": "no-store, must-revalidate"
+      },
+      "dest": "/api/index"
+    }
+  ]
+}
